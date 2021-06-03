@@ -1,5 +1,8 @@
 package com.alivetocode.android.secure;
 
+import android.content.Intent;
+import android.view.View;
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -20,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     Animation topAnim,bottomAnim;
     ImageView image;
     TextView logo,slogan;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,4 +68,5 @@ public class MainActivity extends AppCompatActivity {
         logo.setAnimation(bottomAnim);
         slogan.setAnimation(bottomAnim);
     }
+
 }
