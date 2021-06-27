@@ -7,14 +7,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class lnmcbm_otp_login extends AppCompatActivity {
+public class college_otp_login extends AppCompatActivity {
 
     Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lnmcbm_otp_login);
+        setContentView(R.layout.college_otp_login);
 
         //Creating temporary button
         button = findViewById(R.id.button5);

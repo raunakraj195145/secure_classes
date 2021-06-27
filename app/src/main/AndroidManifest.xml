@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Secure">
         <activity android:name=".lnmcbm_otp_verification"></activity>
-        <activity android:name=".lnmcbm_otp_login" />
+        <activity android:name=".college_otp_login" />
         <activity android:name=".TeacherLogin" />
         <activity android:name=".StudentLogin" />
         <activity android:name=".LoginOptions" />

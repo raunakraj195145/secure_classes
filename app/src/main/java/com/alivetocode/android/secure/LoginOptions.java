@@ -16,7 +16,7 @@ public class LoginOptions extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_options);
+        setContentView(R.layout.login_options);
 
         //Added temporary buttons
         student_login = findViewById(R.id.button2);
@@ -53,8 +53,7 @@ public class LoginOptions extends AppCompatActivity {
     }
     //Function for going to lnmcbm_login activity
     public void openLnmcbmLogin() {
-        Intent intent = new Intent(this, lnmcbm_otp_login.class);
+        Intent intent = new Intent(this, college_otp_login.class);
         startActivity(intent);
     }
-
 }
